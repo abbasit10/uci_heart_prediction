@@ -5,7 +5,7 @@ from joblib import load
 
 
 
-model = load(r"\heart_disease_model.joblib")
+model = load("heart_disease_model.joblib")
 
 st.markdown("""
     <style>
