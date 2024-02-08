@@ -5,7 +5,7 @@ from joblib import load
 
 
 
-model = load(r"C:\Users\abdul\OneDrive\Documents\Jupyter Notebook\Heart Disease Project\heart_disease_model.joblib")
+model = load(r"\heart_disease_model.joblib")
 
 st.markdown("""
     <style>
